@@ -1,6 +1,22 @@
 export default function Heroes() {
 
-// add content 
+    const content = [{
+        image: "https://res.cloudinary.com/roundglass/image/upload/f_auto,c_crop,x_0,y_94,w_2560,h_1439/ar_16:9,c_fill,w_1000,g_face,q_auto/v1740135926/rg/collective/media/ladakh-tsewang-namgail-profile-courtesy_rvk7fq_sfrewe.jpg",
+        title: "heroes",
+        description: "Ladakh, Then and Now: In Conversation with Dr Tsewang Namgail"
+    }, {
+        image: "https://res.cloudinary.com/roundglass/image/upload/f_auto,c_crop,x_189,y_0,w_2075,h_3113/ar_2:3,c_fill,w_auto/g_auto,q_auto/v1740135905/rg/collective/media/ladakh-tsewang-namgail-profile-courtesy_luvmrf.jpg",
+        title: "heroes",
+        description: "Ladakh, Then and Now: In Conversation with Dr Tsewang Namgail"
+    }, {
+        image: "https://res.cloudinary.com/roundglass/image/upload/f_auto,c_crop,x_189,y_0,w_2075,h_3113/ar_2:3,c_fill,w_auto/g_auto,q_auto/v1740135905/rg/collective/media/ladakh-tsewang-namgail-profile-courtesy_luvmrf.jpg",
+        title: "heroes",
+        description: "Ladakh, Then and Now: In Conversation with Dr Tsewang Namgail"
+    }, {
+        image: "https://res.cloudinary.com/roundglass/image/upload/f_auto,c_crop,x_189,y_0,w_2075,h_3113/ar_2:3,c_fill,w_auto/g_auto,q_auto/v1740135905/rg/collective/media/ladakh-tsewang-namgail-profile-courtesy_luvmrf.jpg",
+        title: "heroes",
+        description: "Ladakh, Then and Now: In Conversation with Dr Tsewang Namgail"
+    }]
 
     return (
         <div className="w-screen h-screen overflow-y-scroll bg-neutral-950">
